@@ -1,12 +1,12 @@
 remote_theme: chrisrhymes/bulma-clean-theme@v0.13.3
 
-title: "اشعار رضا طهورایی"
+title: "رضا طهورایی"
 
 lang: fa
 direction: rtl
 
 paginate: 5
-paginate_path: "/blog/page:num"
+paginate_path: "/poems/page:num"
 
 
 defaults:
