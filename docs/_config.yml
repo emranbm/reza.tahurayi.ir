@@ -2,15 +2,19 @@ remote_theme: chrisrhymes/bulma-clean-theme@v0.13.3
 
 title: "رضا طهورایی"
 description: "پزشک شاعر"
-
 lang: fa
 direction: rtl
+theme_color: "#666666"
 
 paginate: 5
 paginate_path: "/poems/page:num"
 
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      hero_image: /assets/img/top-banner.jpg
   - scope:
       path: ""
       type: "posts"
